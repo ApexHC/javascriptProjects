@@ -1,0 +1,34 @@
+body {
+    background-color: lightskyblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 3em;
+    font-family: Lucida Sans;
+}
+
+#interaction-box {
+    padding: 2em;
+    border-radius: 0.5em;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+#interaction-box h1 {
+    text-align: center;
+}
+
+#geolocation-weather {
+    border: none;
+    width: 100%;
+    padding: 8px;
+    background-color: skyblue;
+    border-radius: 0.5em;
+    font-weight: bold;
+}
+
+#geolocation-weather:hover {
+    cursor: pointer;
+    background-color: lightskyblue;
+    transition: ease 0.5s;
+    color: darkblue;
+}
